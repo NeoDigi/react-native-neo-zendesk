@@ -3,7 +3,7 @@ buildscript {
     repositories {
         google()
         jcenter()
-
+        maven { url 'https://zendesk.jfrog.io/zendesk/repo' }
     }
     dependencies {
         classpath 'com.android.tools.build:gradle:3.4.0-alpha02'
@@ -30,10 +30,12 @@ android {
 repositories {
     google()
     jcenter()
+    maven { url 'https://zendesk.jfrog.io/zendesk/repo' }
 }
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
     implementation 'com.facebook.react:react-native:+'
+    implementation group: 'com.zendesk', name: 'support', version: '2.2.1'
 }
