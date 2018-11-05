@@ -1,0 +1,17 @@
+{
+  "name": "react-native-neo-zendesk",
+  "version": "0.0.1",
+  "description": "React Native Wrapper around Zendesk Support",
+  "main": "index.js",
+  "keywords": [
+    "zendesk",
+    "support",
+    "react-native",
+    "react",
+    "ios",
+    "android",
+    "react-component"
+  ],
+  "author": "Neodigi",
+  "license": "MIT"
+}
